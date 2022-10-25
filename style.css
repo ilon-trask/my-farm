@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+button {
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  color: White;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.container {
+  display: flex;
+  width: max-content;
+}
+.container-menu {
+  display: flex;
+  flex-direction: column;
+}
+.container-menu button + button {
+  margin: 20px 0 0 0;
+}
+.container-area__btns button {
+  margin-left: 20px;
+}
+
+.container-area__out {
+  margin: 20px 0 0 20px;
+  height: calc(100% - 66px);
+  width: 360px;
+  border: 2px solid black;
+}
